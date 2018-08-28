@@ -11,7 +11,7 @@
     
    @if ($post->photos->count() ==1 )
 
-    <figure>
+    <figure> Meme
       <img src="{{ url($post->photos->first()->url) }}" alt="" class="img-responsive">
     </figure>  
     @elseif($post->photos->count()>1)
